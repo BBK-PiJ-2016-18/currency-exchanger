@@ -1,6 +1,6 @@
-﻿print "If I give you £1, how many Euro will you give me? (make sure to look up the current exchange rate first, You won't get as many as a few months ago!)";
+﻿print "If I give you £1, how many Euro will you give me? (make sure to look up the current exchange rate first, You won't get as many as a few months ago thanks to Boris & co!)";
 double euroOverPoundRatio = Double.parseDouble(System.console().readLine());
-print "If I give you 1€, how many Sterling pounds will you give me? (make sure to look up the current exchange rate first, You'll get more than a few months ago!)";
+print "If I give you 1€, how many Sterling pounds will you give me? (make sure to look up the current exchange rate first, You'll get more than a few months ago thanks to Boris & co!)";
 double poundOverEuroRatio = Double.parseDouble(System.console().readLine());
 println "OK, now I know enough.";
 boolean finished = false;
