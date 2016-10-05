@@ -1,4 +1,4 @@
-﻿print "If I give you £1, how many Euro will you give me? (make sure to look up the current exchange rate first, You won't get as many as a few months ago thanks to Boris, Farage, Gove & co!)";
+﻿﻿print "If I give you £1, how many Euros will you give me? (make sure to look up the current exchange rate first, You won't get as many as a few months ago thanks to Boris, Farage, Gove & co!)";
 double euroOverPoundRatio = Double.parseDouble(System.console().readLine());
 print "If I give you 1€, how many Sterling pounds will you give me? (make sure to look up the current exchange rate first, You'll get more than a few months ago thanks to Boris, Farage, Gove & co!)";
 double poundOverEuroRatio = Double.parseDouble(System.console().readLine());
@@ -18,20 +18,20 @@ while (!finished) {
 	  print "How many pounds would you like to convert? ";
 	  double pounds = Double.parseDouble(System.console().readLine());
 	  double euro   = pounds * euroOverPoundRatio;
-	  println "£" + pounds + " will give you " + euro + "€";
+	  println "GBP " + pounds + " will give you " + euro + " EUR";
 	  break;
     case 2: 
 	  print "How many euro would you like to convert? ";
 	  double euro   = Double.parseDouble(System.console().readLine());
 	  double pounds = euro * poundOverEuroRatio;
-	  println euro + "€ will give you £" + pounds;
+	  println euro + " EUR will give you GBP " + pounds;
 	  break;
     case 0: 
 	  finished = true;
 	  break;
     default: 
-	  println "Sorry, that is not a valid option";
+	  println "Sorry, that is not a valid option!";
     }	  
 }
-println "Exiting the program";
+println "Exiting the program..";
 
